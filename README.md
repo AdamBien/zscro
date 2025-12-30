@@ -2,6 +2,8 @@
 
 Searches for a file in the `PATH` environment variable and displays its contents.
 
+![Duke Reader](logo.png)
+
 ## Requirements
 
 Java 25+
