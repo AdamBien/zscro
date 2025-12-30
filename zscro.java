@@ -1,7 +1,7 @@
     enum Log {
 
     ERROR(Color.BRIGHT_RED, System.err),
-    USER(Color.BRIGHT_CYAN, System.out),
+    USER(Color.BRIGHT_WHITE, System.out),
     INFO(Color.BRIGHT_GREEN, System.out),
     SYSTEM(Color.SKY_BLUE, System.out),
     WARNING(Color.WARM_YELLOW, System.out),
@@ -60,7 +60,7 @@
     }
 
     public static void user(String message){
-        Log.INFO.out(message);
+        Log.USER.out(message);
     }
 
     public static void clearScreen(){
