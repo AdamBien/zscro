@@ -9,6 +9,12 @@ Java 25+
 ## Usage
 
 ```bash
+./zscro.sh <filename>
+```
+
+Or directly:
+
+```bash
 java zscro.java <filename>
 ```
 
