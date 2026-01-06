@@ -81,7 +81,7 @@ enum Log {
 
 void main (String[] args) {
     if (args.length == 0) {
-        Log.stop("Usage: java zscro.java <filename>");
+        Log.stop("Usage: java zscro <filename>");
     }
 
     var filename = args[0];
