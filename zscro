@@ -1,4 +1,5 @@
 #!/usr/bin/env java --source 25
+
 enum Log {
 
     ERROR(Color.BRIGHT_RED, System.err),
