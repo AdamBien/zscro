@@ -1,4 +1,5 @@
-    enum Log {
+#!/usr/bin/env java --source 25
+enum Log {
 
     ERROR(Color.BRIGHT_RED, System.err),
     USER(Color.BRIGHT_WHITE, System.out),
