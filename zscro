@@ -1,4 +1,4 @@
-#!/usr/bin/env java --source 25
+#!/usr/bin/env -S java --source 25
 
 enum Log {
 
@@ -80,9 +80,9 @@ enum Log {
     }
 }
 
-void main (String[] args) {
+void main (String ...args) {
     if (args.length == 0) {
-        Log.stop("Usage: java zscro <filename>");
+        Log.stop("Usage: zscro <filename>");
     }
 
     var filename = args[0];
