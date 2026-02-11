@@ -103,9 +103,10 @@ void main (String ...args) {
     if (found.isEmpty()) {
         Log.stop("File not found in PATH: " + filename);
     }
-
+    var file = found.get();
+    Log.user("📁 %s%n".formatted(file.toString()));
     try {
-        Files.lines(found.get()).forEach(Log::user);
+        Files.lines(file).forEach(Log::user);
     } catch (IOException e) {
         Log.stop("Error reading file: " + e.getMessage());
     }
